@@ -1,12 +1,14 @@
 package common;
 
+import java.util.Comparator;
 import java.util.Objects;
+import practice.Course;
 
 /**
  *
  * @author Instlogin
  */
-public class Dog implements Comparable<Dog> {
+public class Dog implements Comparable<Dog>{
 
     private String name;
     private int age;
